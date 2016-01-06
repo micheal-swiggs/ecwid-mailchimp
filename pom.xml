@@ -23,7 +23,7 @@ limitations under the License.
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
-  
+
 	<groupId>com.ecwid</groupId>
 	<artifactId>ecwid-mailchimp</artifactId>
 	<version>2.0.1.1-SNAPSHOT</version>
@@ -38,7 +38,7 @@ limitations under the License.
 		<name>Ecwid, Inc</name>
 		<url>http://www.ecwid.com/</url>
 	</organization>
-    
+
 	<developers>
 		<developer>
 			<name>Vasily Karyaev</name>
@@ -86,7 +86,7 @@ limitations under the License.
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>			
+			<distribution>repo</distribution>
 		</license>
 	</licenses>
 
@@ -189,6 +189,7 @@ limitations under the License.
 						<configuration>
 							<excludes>
 								<exclude>com/ecwid/mailchimp/method/*/*.java</exclude>
+                                <exclude>com/ecwid/mailchimp/method/*/*/*.java</exclude>
 							</excludes>
 						</configuration>
 					</plugin>
